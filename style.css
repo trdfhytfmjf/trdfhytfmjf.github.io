@@ -11,6 +11,22 @@ nav {
     padding: 10px;
     position: fixed;
     width: 100%;
+
+
+}
+header { 
+    padding-top: 38px;
+    background-image: url("https://uclacs.org/wp-content/uploads/2017/11/ucla-downtown-2000.jpg");
+    background-size: cover;
+}
+.slide {
+    height:75vh;
+    background-color: grey;
+    border: 1px solid #ffffff;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 nav a {
     text-decoration: none;
@@ -18,7 +34,24 @@ nav a {
     font-size: 1em;
     color: black;
 }
-
+h1{
+    color: seashell
+}
+#about {
+    background-color: palegoldenrod;
+}
+#my-profile-pic {
+    background-image: url("http://s3.amazonaws.com/37assets/svn/765-default-avatar.png");
+    height: 100%;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#my-profile-details {
+    background-color:  palegoldenrod;
+    width: 60%;
+    height: 100%;
+}
 
 
 
