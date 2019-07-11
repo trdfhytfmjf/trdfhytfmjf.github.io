@@ -35,7 +35,8 @@ nav a {
     color: black;
 }
 h1{
-    color: seashell
+    color: seashell;
+    font-style: Impact;
 }
 #about {
     background-color: palegoldenrod;
@@ -46,11 +47,36 @@ h1{
     width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 10px;
 }
 #my-profile-details {
     background-color:  palegoldenrod;
     width: 60%;
     height: 100%;
+    padding: 10px;
+}
+.post-wrapper {
+    width: 75%;
+    height: 200px;
+    background-color: palegoldenrod;
+    border: 2px dotted white;
+}
+#blog {
+    flex-direction: column;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.date {
+    float: right;
+    font-style: italic;
+    font-weight: 400;
+}
+.post-content {
+    overflow-y: scroll;
+}
+.post-wrapper {
+    overflow-y: scroll;
 }
 
 
